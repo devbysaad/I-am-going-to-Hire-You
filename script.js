@@ -85,3 +85,9 @@ main.addEventListener('click', function (dets) {
     } 
     FetchingHtml()
 })
+
+let themeBtn = document.querySelector('.theme')
+themeBtn.addEventListener('click',function(){
+    document.body.classList.toggle('darkTheme')
+
+})
